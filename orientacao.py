@@ -43,7 +43,7 @@ class Orientacao:
             for doc in self.documentos:
                 print(f"  - {doc}")
         print(f"\nOnde fazer: {self.onde}")
-        print(f"Fonte oficial: {self.fonte}")
+        print(f"Fonte: {self.fonte}")
         print(f"Verificado em: {self.verificado_em}")
         print("-" * 60)
         print("Aviso: este assistente não é canal oficial. Confirme na fonte acima.")
