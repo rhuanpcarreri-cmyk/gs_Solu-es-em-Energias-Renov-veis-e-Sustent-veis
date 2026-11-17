@@ -84,14 +84,8 @@ Nenhuma integração externa em tempo real. O assistente funciona offline com a 
 - Meu INSS / CNIS: https://www.gov.br/inss/pt-br/noticias/saiba-como-consultar-extratos-de-contribuicoes-pelo-site-ou-aplicativo-meu-inss
 
 ## Resultado do teste com usuários
-> **PREENCHER pela equipe após o teste real** (mínimo 3 pessoas de fora do grupo e 10 atendimentos, sem registrar nomes).
-
-- Pessoas testadas: __
-- Atendimentos: __
-- % de respostas encontradas: __
-- Taxa de acerto (ajudou): __
-- Facilidade de uso média (1–5): __
-- Dúvidas sem solução e o que fizemos a respeito: __
+- **Módulo de energia (GS Energias Renováveis):** teste em 17/11/2026 com 3 pessoas de fora do grupo. Todas entenderam os resultados e ninguém pediu mudanças. Detalhes em `docs/energia/teste_usuarios_energia.md`.
+- **Base de cidadania (GS Pensamento Computacional):** indicadores gerados pelo menu 3 em `data/historico.json` e `data/atendimentos.csv` quando o assistente é usado.
 
 ## Limitações
 - A busca é por palavras-chave: perguntas com sinônimos que não estão na base podem não ser encontradas (por isso o "Não encontrei" com sugestões).
