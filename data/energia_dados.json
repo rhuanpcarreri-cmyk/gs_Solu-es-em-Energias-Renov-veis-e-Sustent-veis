@@ -1,0 +1,110 @@
+{
+  "versao": "2026-11-17",
+  "contexto": "Jovem no primeiro emprego (sozinho ou em república) que quer reduzir o custo do banho quente na conta de luz.",
+  "parametros": {
+    "tarifa_kwh": {
+      "valor": 0.93,
+      "unidade": "R$/kWh (com tributos)",
+      "tipo": "dado real arredondado",
+      "origem": "Fatura de energia residencial B1 da Enel SP (fev/2026): TUSD R$ 0,55437 + TE R$ 0,37527 por kWh, com tributos (soma 0,92964). Anterior ao reajuste médio de 10,18% de 04/07/2026.",
+      "fonte": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/993/2026/8067826.pdf",
+      "premissa": "O usuário pode informar a tarifa da própria fatura. A tarifa muda por distribuidora, ano e faixa de consumo."
+    },
+    "bandeira_adicional_por_kwh": {
+      "valor": {"verde": 0.0, "amarela": 0.01885, "vermelha1": 0.04463, "vermelha2": 0.07877},
+      "unidade": "R$/kWh (antes dos tributos)",
+      "tipo": "dado oficial",
+      "origem": "ANEEL: adicionais das bandeiras tarifárias (R$ 1,885, R$ 4,463 e R$ 7,877 a cada 100 kWh). Bandeira verde em novembro/2026.",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/tarifas/bandeiras-tarifarias",
+      "premissa": "O adicional é somado à tarifa sem aplicar tributos sobre ele; o valor real na fatura é um pouco maior."
+    },
+    "potencia_chuveiro_w": {
+      "valor": 5500,
+      "unidade": "W",
+      "tipo": "dado de mercado",
+      "origem": "Potência comum dos chuveiros elétricos de 127 V (5.500 W). Consumo = potência x horas / 1000.",
+      "fonte": "https://canaltech.com.br/eletro/quanto-um-chuveiro-eletrico-pesa-na-conta-de-luz-fizemos-as-contas/",
+      "premissa": "O usuário pode informar a potência da etiqueta do próprio chuveiro."
+    },
+    "dias_mes": {
+      "valor": 30,
+      "unidade": "dias",
+      "tipo": "premissa",
+      "origem": "Um banho por pessoa por dia, todos os dias do mês.",
+      "fonte": "",
+      "premissa": "Não considera dias sem banho quente, viagens nem variação de inverno e verão."
+    },
+    "reducao_minutos_banho": {
+      "valor": 3,
+      "unidade": "minutos por banho",
+      "tipo": "estimado",
+      "origem": "Meta de encurtar o banho. A distribuidora Cemig usa o exemplo de reduzir 4 minutos por banho com chuveiro de 5.500 W.",
+      "fonte": "https://www.diariodepernambuco.com.br/dptrends/chuveiro-eletrico-na-potencia-maxima-e-banhos-demorados-formam-uma-combinacao-que-pode-encarecer-a-conta-de-luz-da-familia/",
+      "premissa": "Adotamos 3 minutos por ser uma meta realista para quem toma banhos de cerca de 10 minutos."
+    },
+    "fator_emissao_kg_kwh": {
+      "valor": 0.0385,
+      "unidade": "kg CO2/kWh",
+      "tipo": "dado oficial",
+      "origem": "MCTI: fator médio de emissão do Sistema Interligado Nacional em 2023 = 38,5 kg CO2/MWh. Em 2025 os valores mensais ficaram entre 21,5 e 28,9 kg/MWh.",
+      "fonte": "https://eixos.com.br/brasil-tem-menor-taxa-de-emissao-de-carbono-na-geracao-eletrica-em-onze-anos/",
+      "premissa": "Usamos o valor anual de 2023 por ser o último ano fechado que encontramos. Não inclui o CO2 da fabricação dos equipamentos."
+    },
+    "custo_aquecedor_solar_rs": {
+      "valor": 3356.85,
+      "unidade": "R$ (fornecimento e instalação)",
+      "tipo": "dado oficial (referência de preço)",
+      "origem": "SINAPI composição 103517 (jan/2026): kit compacto com 1 coletor solar, reservatório de 200 L, acessórios e instalação.",
+      "fonte": "https://orcamentor.com/composicao/103517/",
+      "premissa": "Preço de referência de obra pública. Em casas sem tubulação de água quente adaptada, o custo real pode ser maior."
+    },
+    "area_coletor_m2": {
+      "valor": 2.0,
+      "unidade": "m2",
+      "tipo": "referência de catálogo",
+      "origem": "Kit compacto de 200 L com placa coletora de 2,0 m2, indicado para 4 a 5 banhos por dia (SINAPI, insumo 34472).",
+      "fonte": "https://orcamentor.com/insumo/34472/",
+      "premissa": "Define também o limite de 5 banhos por dia do kit considerado."
+    },
+    "pmee_kwh_mes_m2": {
+      "valor": 81.8,
+      "unidade": "kWh/mês por m2 de coletor",
+      "tipo": "dado de fabricante (classe A do Inmetro)",
+      "origem": "Datasheet de coletor classe A (Komeco): 81,8 a 94,8 kWh/mês/m2. O Inmetro exige no mínimo 52,3 kWh/mês/m2 para aplicação banho.",
+      "fonte": "https://www.komeco.com.br/arquivos/datasheet/aquecimento-solar/coletor-solar/datasheet-coletor-solar-linha-princess-prime.pdf",
+      "premissa": "Usamos o menor valor da classe A. Valor de ensaio, a produção real depende de sol, inclinação e sombra."
+    },
+    "fracao_solar": {
+      "valor": 0.7,
+      "unidade": "fração da energia do banho",
+      "tipo": "estimado",
+      "origem": "Parte da energia do banho que o sol cobre ao longo do ano. O restante vem do apoio elétrico em dias nublados. Valor de literatura citado em material de aquecimento solar.",
+      "fonte": "https://moodle.unipampa.edu.br/moodle/mod/resource/view.php?id=127195",
+      "premissa": "Estimativa. A fração real varia por cidade, estação e hábito. Na capital paulista tende a ser menor no inverno."
+    },
+    "limite_banhos_dia_kit": {
+      "valor": 5,
+      "unidade": "banhos por dia",
+      "tipo": "referência de catálogo",
+      "origem": "Kit de 200 L: 4 a 5 banhos por dia.",
+      "fonte": "https://orcamentor.com/insumo/34472/",
+      "premissa": "Acima disso é preciso um sistema maior, cujo custo não é calculado aqui."
+    },
+    "limite_payback_meses": {
+      "valor": 60,
+      "unidade": "meses",
+      "tipo": "premissa da equipe",
+      "origem": "Consideramos que o investimento compensa se se paga em até 5 anos. Referência de mercado citada: retorno de 3 a 5 anos em sistemas de 200 a 400 L.",
+      "fonte": "https://clickpetroleoegas.com.br/adeus-chuveiro-eletrico-aquecedor-solar-placas-planas-26-milhoes-m2-davila/",
+      "premissa": "Critério de decisão nosso, não é regra oficial."
+    },
+    "horizonte_anos": {
+      "valor": 10,
+      "unidade": "anos",
+      "tipo": "premissa da equipe",
+      "origem": "Horizonte para calcular a economia líquida, sem reajuste de tarifa e sem manutenção.",
+      "fonte": "",
+      "premissa": "Não considera inflação, reajustes nem custo de manutenção."
+    }
+  }
+}

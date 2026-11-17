@@ -1,0 +1,449 @@
+[
+  {
+    "id": 1,
+    "categoria": "Documentos",
+    "titulo": "Como tirar o CPF",
+    "palavras_chave": [
+      "cpf",
+      "tirar cpf",
+      "inscrever no cpf",
+      "numero do cpf",
+      "cadastro de pessoa fisica"
+    ],
+    "resposta": "O CPF é gratuito e não tem idade mínima. Você pode inscrever, consultar e atualizar sem pagar nada. Faça pelo serviço 'Inscrever-se no CPF' no gov.br ou em uma unidade da Receita Federal com agendamento.",
+    "documentos": [
+      "Documento de identidade com foto (se o pedido gerar protocolo)"
+    ],
+    "onde": "gov.br (serviço Inscrever-se no CPF) ou unidade da Receita Federal com agendamento",
+    "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 2,
+    "categoria": "Documentos",
+    "titulo": "Carteira de Trabalho Digital",
+    "palavras_chave": [
+      "carteira de trabalho",
+      "ctps",
+      "carteira digital",
+      "carteira de trabalho digital",
+      "primeiro emprego"
+    ],
+    "resposta": "A Carteira de Trabalho Digital é um aplicativo gratuito. Entre com seu CPF e a sua conta gov.br. Quando você for contratado, o empregador faz o registro pelo eSocial e só precisa informar o seu CPF.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "Aplicativo Carteira de Trabalho Digital (celular)",
+    "fonte": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 3,
+    "categoria": "Documentos",
+    "titulo": "Primeiro título de eleitor",
+    "palavras_chave": [
+      "titulo de eleitor",
+      "titulo eleitoral",
+      "tirar titulo",
+      "alistamento eleitoral",
+      "titulo net",
+      "votar"
+    ],
+    "resposta": "O voto é facultativo aos 16 e 17 anos e obrigatório a partir dos 18. O pedido pode ser iniciado no sistema Título Net, do TSE, mas quem tira o título pela primeira vez precisa ir ao cartório eleitoral para a coleta da biometria. Confira no TRE do seu estado se é preciso agendar.",
+    "documentos": [
+      "Documento oficial de identidade com foto (a CNH não serve para o alistamento)",
+      "Comprovante de residência recente",
+      "Quitação com o serviço militar (homens de 18 a 45 anos)"
+    ],
+    "onde": "Sistema Título Net (TSE) e cartório eleitoral da sua cidade",
+    "fonte": "https://www.tse.jus.br/comunicacao/noticias/2024/Abril/precisa-ir-ao-cartorio-eleitoral-confira-os-documentos-que-voce-deve-levar",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 4,
+    "categoria": "Documentos",
+    "titulo": "Alistamento militar",
+    "palavras_chave": [
+      "alistamento militar",
+      "servico militar",
+      "junta militar",
+      "reservista",
+      "alistar"
+    ],
+    "resposta": "Para homens é obrigatório no ano em que completam 18 anos. Para mulheres é voluntário. O prazo vai de 1º de janeiro a 30 de junho. Dá para fazer online no site alistamento.eb.mil.br ou presencialmente na Junta de Serviço Militar do seu município.",
+    "documentos": [
+      "Consulte a lista de documentos na Junta de Serviço Militar do seu município"
+    ],
+    "onde": "Site alistamento.eb.mil.br ou Junta de Serviço Militar do município",
+    "fonte": "https://www.gov.br/defesa/pt-br/assuntos/servico-militar",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 5,
+    "categoria": "Documentos",
+    "titulo": "Carteira de Identidade Nacional (novo RG)",
+    "palavras_chave": [
+      "carteira de identidade nacional",
+      "cin",
+      "novo rg",
+      "rg novo",
+      "tirar rg",
+      "identidade"
+    ],
+    "resposta": "A CIN usa o CPF como número único e tem versão física e digital com QR code. A primeira emissão em papel é gratuita. O RG antigo continua válido até 28 de fevereiro de 2032. Veja em gov.br/identidade como agendar no seu estado.",
+    "documentos": [
+      "Certidão de nascimento ou de casamento (original)"
+    ],
+    "onde": "gov.br/identidade (indica o atendimento do seu estado)",
+    "fonte": "https://www.gov.br/governodigital/pt-br/identidade/cin",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 6,
+    "categoria": "Trabalho e Renda",
+    "titulo": "Seguro-desemprego",
+    "palavras_chave": [
+      "seguro desemprego",
+      "demitido",
+      "demissao",
+      "fui demitido",
+      "sem justa causa"
+    ],
+    "resposta": "O pedido pode ser feito a partir do 7º dia após a demissão e até 120 dias depois dela. Na primeira solicitação é preciso: ter sido demitido sem justa causa, estar desempregado, não ter renda própria para o sustento da família e ter recebido salário por pelo menos 12 dos últimos 18 meses.",
+    "documentos": [
+      "Número do Requerimento (no formulário entregue pelo empregador)",
+      "Conta gov.br com CPF e senha (para pedir online)"
+    ],
+    "onde": "gov.br (serviço Receber o Seguro-Desemprego), app SINE-Fácil ou presencialmente (agendamento pelo 158)",
+    "fonte": "https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 7,
+    "categoria": "Trabalho e Renda",
+    "titulo": "Jovem Aprendiz",
+    "palavras_chave": [
+      "jovem aprendiz",
+      "aprendiz",
+      "menor aprendiz",
+      "contrato de aprendizagem",
+      "senai"
+    ],
+    "resposta": "Vale para quem tem de 14 anos completos a menos de 24. O contrato dura no máximo 2 anos e garante registro em carteira, salário proporcional às horas (nunca abaixo do salário mínimo-hora), FGTS de 2%, 13º, férias e vale-transporte. A jornada é de 4 a 6 horas se o ensino médio não foi concluído, e de até 8 horas se já foi. Quem não terminou a educação básica precisa estar matriculado na escola.",
+    "documentos": [
+      "Comprovante de matrícula (se ainda estuda)",
+      "Documento de identidade"
+    ],
+    "onde": "Entidades formadoras habilitadas (como Senai, Senac ou escolas técnicas)",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/julho/aprendizagem-profissional-regras-direitos-e-funcionamento-do-contrato-de-aprendizagem",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 8,
+    "categoria": "Trabalho e Renda",
+    "titulo": "Buscar vagas no Sine",
+    "palavras_chave": [
+      "sine",
+      "buscar emprego",
+      "vagas de emprego",
+      "procurar emprego",
+      "cadastro de vagas"
+    ],
+    "resposta": "O Sistema Nacional de Emprego (Sine) permite fazer o cadastro e buscar vagas pela internet ou em um posto de atendimento. As vagas também aparecem no aplicativo Carteira de Trabalho Digital.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "Portal gov.br (Sine), posto do Sine ou app Carteira de Trabalho Digital",
+    "fonte": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 9,
+    "categoria": "Trabalho e Renda",
+    "titulo": "Consultar o FGTS pelo aplicativo",
+    "palavras_chave": [
+      "fgts",
+      "saldo do fgts",
+      "extrato fgts",
+      "app fgts",
+      "sacar fgts"
+    ],
+    "resposta": "O aplicativo FGTS é gratuito. Nele você vê saldo e extrato e pode pedir o saque digital. Atenção: a Caixa não envia links nem pede confirmação de dados por e-mail, SMS ou WhatsApp.",
+    "documentos": [
+      "Celular com o aplicativo FGTS instalado"
+    ],
+    "onde": "Aplicativo FGTS ou site fgts.gov.br",
+    "fonte": "https://www.fgts.gov.br/Paginas/trabalhador/app-fgts.aspx",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 10,
+    "categoria": "Direitos e Segurança",
+    "titulo": "Jornada, hora extra e férias",
+    "palavras_chave": [
+      "jornada de trabalho",
+      "horas extras",
+      "hora extra",
+      "ferias",
+      "44 horas",
+      "adicional noturno"
+    ],
+    "resposta": "A jornada máxima é de 8 horas por dia e 44 por semana, com até 2 horas extras de forma eventual. A hora extra é paga com acréscimo de, no mínimo, 50%. O adicional noturno é de 25%. As férias são de 30 dias, depois de 12 meses de trabalho, sempre com acréscimo de 1/3. Se o contrato acabar antes, elas são pagas de forma proporcional.",
+    "documentos": [
+      "Contrato e holerite (para conferir seus dados)"
+    ],
+    "onde": "Dúvidas pela Central Alô Trabalho (158) ou no site do Ministério do Trabalho e Emprego",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/trabalho-sustentavel/trabalhadores-e-trabalhadoras",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 11,
+    "categoria": "Direitos e Segurança",
+    "titulo": "Décimo terceiro salário",
+    "palavras_chave": [
+      "13 salario",
+      "decimo terceiro",
+      "decimo terceiro salario",
+      "13o",
+      "gratificacao natalina"
+    ],
+    "resposta": "O 13º corresponde a 1/12 da remuneração de dezembro por mês trabalhado (ou fração de 15 dias). A primeira metade deve ser paga até novembro e a segunda até 20 de dezembro.",
+    "documentos": [
+      "Holerite (para conferir o cálculo)"
+    ],
+    "onde": "Com o empregador. Dúvidas: Central Alô Trabalho (158)",
+    "fonte": "https://www3.mte.gov.br/ouvidoria/duvidas_trabalhistas.asp",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 12,
+    "categoria": "Direitos e Segurança",
+    "titulo": "Denunciar empresa ou tirar dúvida trabalhista (158)",
+    "palavras_chave": [
+      "denunciar empresa",
+      "denuncia trabalhista",
+      "158",
+      "alo trabalho",
+      "duvida trabalhista",
+      "irregularidade trabalhista"
+    ],
+    "resposta": "Ligue 158 (Central Alô Trabalho), de segunda a sábado, das 7h às 22h. A ligação é gratuita de telefone fixo; de celular é cobrada. A denúncia trabalhista também pode ser feita online com sua conta gov.br e os dados pessoais são sigilosos. Em denúncia de trabalho análogo ao de escravo não é exigida identificação.",
+    "documentos": [
+      "Nome ou razão social da empresa",
+      "Endereço completo",
+      "Descrição dos fatos"
+    ],
+    "onde": "Telefone 158 ou canal de denúncias do Ministério do Trabalho e Emprego (gov.br)",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2023/marco/central-alo-trabalho-158",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 13,
+    "categoria": "Direitos e Segurança",
+    "titulo": "Golpe da vaga de emprego falsa",
+    "palavras_chave": [
+      "golpe",
+      "vaga falsa",
+      "taxa para vaga",
+      "pagar para trabalhar",
+      "golpe de emprego",
+      "pix para emprego"
+    ],
+    "resposta": "Se pedirem pagamento de taxa para participar de processo seletivo, desconfie: é sinal de golpe. O Ministério do Trabalho já alertou sobre mensagens falsas que usam o nome dele e cobram taxas. Não pague e evite passar dados pessoais ou financeiros antes de confirmar a empresa. Na dúvida, confirme a vaga pelos canais oficiais, como a Central 158.",
+    "documentos": [
+      "Prints da conversa e do anúncio (para guardar como prova)"
+    ],
+    "onde": "Confirme a vaga no site da empresa ou pela Central Alô Trabalho (158)",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/setembro/mte-alerta-e-falsa-a-informacao-sobre-processos-seletivos-para-vagas-nos-correios",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 14,
+    "categoria": "Direitos e Segurança",
+    "titulo": "Reclamar de uma empresa no Consumidor.gov.br",
+    "palavras_chave": [
+      "consumidor gov br",
+      "reclamar de empresa",
+      "reclamacao contra empresa",
+      "reclamar de produto",
+      "servico ruim"
+    ],
+    "resposta": "O serviço é gratuito, mas a empresa precisa estar cadastrada na plataforma. A empresa tem até 10 dias para responder e você tem até 20 dias para avaliar a resposta. É preciso ter conta gov.br nível prata ou ouro.",
+    "documentos": [
+      "Conta gov.br prata ou ouro",
+      "Dados da compra ou do serviço (nota, protocolo, prints)"
+    ],
+    "onde": "Site consumidor.gov.br",
+    "fonte": "https://www.gov.br/pt-br/servicos/reclamar-contra-servico-ou-produto-de-empresas-privadas",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 15,
+    "categoria": "Serviços Digitais",
+    "titulo": "Níveis da conta gov.br",
+    "palavras_chave": [
+      "conta gov br",
+      "nivel da conta",
+      "nivel prata",
+      "nivel ouro",
+      "aumentar nivel",
+      "criar conta gov br"
+    ],
+    "resposta": "A conta gov.br tem três níveis: bronze, prata e ouro. Quanto mais forte a validação dos seus dados, mais serviços você acessa. Para subir de nível, use o aplicativo gov.br e siga as orientações. A prata pode vir da validação de dados bancários em banco credenciado. A ouro vem do reconhecimento facial com dados da Justiça Eleitoral, do QR Code da CIN ou de certificado digital.",
+    "documentos": [
+      "CPF",
+      "Celular com o aplicativo gov.br"
+    ],
+    "onde": "Aplicativo gov.br ou site gov.br",
+    "fonte": "https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/niveis-da-conta-govbr",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 16,
+    "categoria": "Serviços Digitais",
+    "titulo": "Conferir contribuições no Meu INSS (CNIS)",
+    "palavras_chave": [
+      "meu inss",
+      "inss",
+      "cnis",
+      "extrato de contribuicao",
+      "contribuicao inss",
+      "vinculos trabalhistas"
+    ],
+    "resposta": "Entre no Meu INSS (site meu.inss.gov.br ou aplicativo) com sua conta gov.br e escolha 'Extrato de Contribuição (CNIS)'. Ali aparecem seus empregadores, períodos e remunerações. Vale conferir se os vínculos e as contribuições estão corretos.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "Site meu.inss.gov.br ou aplicativo Meu INSS",
+    "fonte": "https://www.gov.br/inss/pt-br/noticias/saiba-como-consultar-extratos-de-contribuicoes-pelo-site-ou-aplicativo-meu-inss",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 17,
+    "categoria": "Energia",
+    "titulo": "Quanto o chuveiro elétrico gasta na conta de luz",
+    "palavras_chave": [
+      "chuveiro eletrico",
+      "quanto gasta o chuveiro",
+      "consumo do chuveiro",
+      "conta de luz",
+      "consumo de energia",
+      "kwh"
+    ],
+    "resposta": "O consumo é potência x tempo: kWh = (watts ÷ 1000) x horas. Um chuveiro de 5.500 W usado 10 minutos por dia, durante 30 dias, gasta 27,5 kWh no mês. Com a tarifa de R$ 0,93 por kWh, isso dá cerca de R$ 25,58 por mês por pessoa. É um dos maiores consumos de uma casa. Para simular com os seus números, use a opção 5 do menu.",
+    "documentos": [
+      "Potência do chuveiro (etiqueta do aparelho)",
+      "Tarifa por kWh da sua fatura de luz"
+    ],
+    "onde": "Fatura de luz (tarifa) e etiqueta do chuveiro",
+    "fonte": "https://canaltech.com.br/eletro/quanto-um-chuveiro-eletrico-pesa-na-conta-de-luz-fizemos-as-contas/",
+    "verificado_em": "2026-11-17"
+  },
+  {
+    "id": 18,
+    "categoria": "Energia",
+    "titulo": "Economizar energia encurtando o banho",
+    "palavras_chave": [
+      "economizar energia",
+      "reduzir a conta de luz",
+      "banho mais curto",
+      "encurtar o banho",
+      "economizar luz",
+      "economia de energia",
+      "economizar na conta de luz",
+      "como economizar",
+      "diminuir a conta de luz"
+    ],
+    "resposta": "Encurtar o banho em 3 minutos reduz o consumo de um chuveiro de 5.500 W de 27,5 para 19,25 kWh por mês, uma economia de 8,25 kWh. Com tarifa de R$ 0,93, são cerca de R$ 7,67 por mês (R$ 92 por ano) por pessoa, sem gastar nada. É uma estimativa: depende da sua tarifa, da potência do chuveiro e do seu hábito. Simule os seus números na opção 5 do menu.",
+    "documentos": [
+      "Tarifa por kWh da sua fatura de luz"
+    ],
+    "onde": "Em casa. Basta mudar o hábito do banho",
+    "fonte": "https://www.diariodepernambuco.com.br/dptrends/chuveiro-eletrico-na-potencia-maxima-e-banhos-demorados-formam-uma-combinacao-que-pode-encarecer-a-conta-de-luz-da-familia/",
+    "verificado_em": "2026-11-17"
+  },
+  {
+    "id": 19,
+    "categoria": "Energia",
+    "titulo": "Aquecedor solar de água: vale a pena?",
+    "palavras_chave": [
+      "aquecedor solar",
+      "energia solar",
+      "painel solar",
+      "energia renovavel",
+      "solar termico",
+      "aquecimento solar"
+    ],
+    "resposta": "O aquecedor solar usa o sol para esquentar a água e reduz o uso do chuveiro elétrico. No kit de referência (R$ 3.356,85 com instalação, para até 5 banhos por dia) e com 70% da energia do banho vinda do sol, a economia estimada é de cerca de R$ 17,90 por mês para 1 pessoa (retorno em 15,6 anos) e de R$ 71,61 por mês para 4 pessoas (retorno em 3,9 anos). Ou seja, tende a compensar em casa própria com várias pessoas, e não para quem mora sozinho. São valores estimados: dependem do sol, do telhado e do preço do seu orçamento.",
+    "documentos": [
+      "Orçamentos de empresas instaladoras",
+      "Autorização do proprietário (se o imóvel não for seu)"
+    ],
+    "onde": "Empresas instaladoras. Prefira equipamentos com etiqueta do Inmetro (PBE)",
+    "fonte": "https://orcamentor.com/composicao/103517/",
+    "verificado_em": "2026-11-17"
+  },
+  {
+    "id": 20,
+    "categoria": "Energia",
+    "titulo": "Bandeiras tarifárias da conta de luz",
+    "palavras_chave": [
+      "bandeira tarifaria",
+      "bandeira amarela",
+      "bandeira vermelha",
+      "bandeira verde",
+      "adicional na conta de luz"
+    ],
+    "resposta": "A bandeira tarifária indica o custo de gerar energia no mês. Verde: sem cobrança extra. Amarela: R$ 1,885 a cada 100 kWh. Vermelha patamar 1: R$ 4,463 a cada 100 kWh. Vermelha patamar 2: R$ 7,877 a cada 100 kWh. Em novembro de 2026 a bandeira é verde. A Aneel define a bandeira de cada mês no fim do mês anterior.",
+    "documentos": [
+      "Fatura de luz"
+    ],
+    "onde": "Site da Aneel e fatura da sua distribuidora",
+    "fonte": "https://www.gov.br/aneel/pt-br/assuntos/tarifas/bandeiras-tarifarias",
+    "verificado_em": "2026-11-17"
+  },
+  {
+    "id": 21,
+    "categoria": "Energia",
+    "titulo": "Quanto CO2 se evita economizando energia",
+    "palavras_chave": [
+      "co2",
+      "emissao de carbono",
+      "meio ambiente",
+      "pegada de carbono",
+      "impacto ambiental",
+      "sustentavel"
+    ],
+    "resposta": "A rede elétrica brasileira emite pouco: em 2023 foram 38,5 kg de CO2 por MWh (0,0385 kg por kWh). Por isso economizar eletricidade evita pouco CO2: encurtar o banho em 3 minutos (8,25 kWh por mês) evita cerca de 3,8 kg de CO2 por ano. O ganho principal é financeiro. O cálculo não inclui o CO2 da fabricação dos equipamentos.",
+    "documentos": [],
+    "onde": "Dados de emissão: Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "fonte": "https://eixos.com.br/brasil-tem-menor-taxa-de-emissao-de-carbono-na-geracao-eletrica-em-onze-anos/",
+    "verificado_em": "2026-11-17"
+  },
+  {
+    "id": 22,
+    "categoria": "Energia",
+    "titulo": "Energia solar para quem mora de aluguel",
+    "palavras_chave": [
+      "mora de aluguel",
+      "imovel alugado",
+      "aluguel energia solar",
+      "republica",
+      "kitnet",
+      "apartamento alugado",
+      "moro de aluguel",
+      "moro em republica",
+      "alugado"
+    ],
+    "resposta": "Quem aluga normalmente não deveria instalar aquecedor solar, porque o investimento fica no imóvel e depende de telhado e de autorização do proprietário. Nesse caso, as melhores medidas são de custo zero ou baixo: encurtar o banho e conferir a tarifa e a bandeira da sua fatura. Se o imóvel for ficar com você por muitos anos, converse com o proprietário e peça orçamentos. Esta orientação é uma análise da equipe a partir dos cálculos da opção 5 do menu.",
+    "documentos": [
+      "Contrato de aluguel (para ver o que o proprietário permite)"
+    ],
+    "onde": "Conversa com o proprietário ou a administradora",
+    "fonte": "https://orcamentor.com/composicao/103517/",
+    "verificado_em": "2026-11-17"
+  }
+]
