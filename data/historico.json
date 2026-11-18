@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "data": "2026-11-18 19:30:03",
+    "origem": "pergunta",
+    "pergunta": "quanto gasta o chuveiro eletrico",
+    "id_orientacao": 17,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 0.0,
+    "facilidade": null
+  }
+]
